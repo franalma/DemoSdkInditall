@@ -1,0 +1,64 @@
+2020-06-24 09:25:21.137 3593-3593/? I/mosdkindigital: Late-enabling -Xcheck:jni
+2020-06-24 09:25:21.164 3593-3593/? E/mosdkindigital: Unknown bits set in runtime_flags: 0x8000
+2020-06-24 09:25:21.165 3593-3593/? I/mosdkindigital: Reinit property: dalvik.vm.checkjni= false
+2020-06-24 09:25:21.174 3593-3593/? E/libc: Access denied finding property "runtime.mmitest.isrunning"
+2020-06-24 09:25:21.176 3593-3593/? D/ActivityThread: Attach thread to application
+2020-06-24 09:25:21.273 3593-3593/? I/mosdkindigital: QarthPatchMonintor::Init
+2020-06-24 09:25:21.273 3593-3593/? I/mosdkindigital: QarthPatchMonintor::StartWatch
+2020-06-24 09:25:21.273 3593-3593/? I/mosdkindigital: QarthPatchMonintor::WatchPackage: /data/hotpatch/fwkhotpatch/
+2020-06-24 09:25:21.273 3593-3593/? I/mosdkindigital: QarthPatchMonintor::CheckAndWatchPatch: /data/hotpatch/fwkhotpatch/com.huawei.demo.demosdkindigitall
+2020-06-24 09:25:21.273 3593-3593/? I/mosdkindigital: QarthPatchMonintor::CheckAndWatchPatch: /data/hotpatch/fwkhotpatch/all
+2020-06-24 09:25:21.273 3593-3593/? I/mosdkindigital: QarthPatchMonintor::Run
+2020-06-24 09:25:21.273 3593-3685/? I/mosdkindigital: QarthPatchMonintor::Reading
+2020-06-24 09:25:21.273 3593-3685/? I/mosdkindigital: QarthPatchMonintor::CheckNotifyEvent
+2020-06-24 09:25:21.273 3593-3685/? I/mosdkindigital: QarthPatchMonintor::CheckNotifyEvent before read
+2020-06-24 09:25:21.273 3593-3651/? I/HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.huawei.demo.demosdkindigitall#10108#256
+2020-06-24 09:25:21.273 3593-3651/? I/HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.huawei.demo.demosdkindigitall#10108#0
+2020-06-24 09:25:21.276 3593-3651/? I/AwareBitmapCacher: init processName:com.huawei.demo.demosdkindigitall pid=3593 uid=10108
+2020-06-24 09:25:21.277 3593-3686/? E/AwareLog: AtomicFileUtils: readFileLines file not exist: android.util.AtomicFile@85f3487
+2020-06-24 09:25:21.277 3593-3686/? E/AwareLog: AtomicFileUtils: readFileLines file not exist: android.util.AtomicFile@9f4afb4
+2020-06-24 09:25:21.277 3593-3593/? W/FirebaseApp: Default FirebaseApp failed to initialize because no default options were found. This usually means that com.google.gms:google-services was not applied to your gradle project.
+2020-06-24 09:25:21.277 3593-3593/? I/FirebaseInitProvider: FirebaseApp initialization unsuccessful
+2020-06-24 09:25:21.297 3593-3593/? I/HMSSDK_HuaweiMobileServicesUtil: connect versionCode:50000304
+2020-06-24 09:25:21.298 3593-3593/? I/System.out: ---after init
+2020-06-24 09:25:21.303 3593-3718/? D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+2020-06-24 09:25:21.330 3593-3593/? V/ActivityThread: callActivityOnCreate
+2020-06-24 09:25:21.340 3593-3593/? V/HwWidgetFactory: : successes to get AllImpl object and return....
+2020-06-24 09:25:21.350 3593-3593/? I/OverScrollerOptimization: start init SmartSlideOverScroller and get the overscroller config
+2020-06-24 09:25:21.350 3593-3593/? I/OverScrollerOptimization: get the overscroller config
+2020-06-24 09:25:21.367 3593-3593/? W/mosdkindigital: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+2020-06-24 09:25:21.367 3593-3593/? W/mosdkindigital: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+2020-06-24 09:25:21.384 3593-3593/? D/ActivityThread: add activity client record, r= ActivityRecord{f13c937 token=android.os.BinderProxy@8db2595 {com.huawei.demo.demosdkindigitall/com.huawei.demo.demosdkindigitall.MainActivity}} token= android.os.BinderProxy@8db2595
+2020-06-24 09:25:21.400 3593-3779/? D/HiTouch_PressGestureDetector: onAttached, package=com.huawei.demo.demosdkindigitall, windowType=1, mHiTouchRestricted=false
+2020-06-24 09:25:21.407 3593-3721/? I/iGraphics: [0020080c] pn: com.huawei.demo.demosdkindigitall, p: 3593
+2020-06-24 09:25:21.407 3593-3721/? I/iGraphics: [0030080c] no spt app: com.huawei.demo.demosdkindigitall
+2020-06-24 09:25:21.411 3593-3718/? D/[IND]api.BaseClient: Method: GET
+    URL: https://device-api.indigitall.com/v1/application/all?appKey=060ce62f-be2c-4fc0-8ad5-4c00c92a02a7&platform=harmony
+    Response Code: 403
+    Error: Forbidden
+2020-06-24 09:25:21.414 3593-3721/? D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2020-06-24 09:25:21.419 3593-3721/? W/Gralloc3: mapper 3.x is not supported
+2020-06-24 09:25:21.420 3593-3718/? I/HMSSDK_HuaweiMobileServicesUtil: connect versionCode:50000304
+2020-06-24 09:25:21.449 3593-3593/? I/HwViewRootImpl: removeInvalidNode jank list is null
+2020-06-24 09:25:21.474 3593-3800/? D/[IND]api.BaseClient: Method: POST
+    URL: https://device-api.indigitall.com/v1/device?appKey=060ce62f-be2c-4fc0-8ad5-4c00c92a02a7
+    Request Body: {
+        "platform": "harmony",
+        "version": "4.6.0",
+        "productName": "android",
+        "productVersion": "3.1.2",
+        "osName": "Android",
+        "osVersion": "10 (SDK:29)",
+        "deviceBrand": "HUAWEI",
+        "deviceModel": "LIO-L29",
+        "deviceType": "mobile",
+        "appVersion": "1.0",
+        "locale": "es_ES",
+        "timeZone": "Europe\/Madrid",
+        "timeOffset": 120
+    }
+    Response Code: 403
+    Error: Forbidden
+2020-06-24 09:25:23.187 3593-3642/com.huawei.demo.demosdkindigitall W/System: A resource failed to call end. 
+2020-06-24 09:25:23.187 3593-3642/com.huawei.demo.demosdkindigitall W/System: A resource failed to call end. 
+2020-06-24 09:25:26.277 3593-3593/com.huawei.demo.demosdkindigitall D/AwareBitmapCacher: handleInit disable com.huawei.demo.demosdkindigitall

@@ -1,0 +1,91 @@
+2020-06-24 12:22:55.600 9357-9357/? I/mosdkindigital: Late-enabling -Xcheck:jni
+2020-06-24 12:22:55.618 9357-9357/? E/mosdkindigital: Unknown bits set in runtime_flags: 0x8000
+2020-06-24 12:22:55.618 9357-9357/? I/mosdkindigital: Reinit property: dalvik.vm.checkjni= false
+2020-06-24 12:22:55.625 9357-9357/? E/libc: Access denied finding property "runtime.mmitest.isrunning"
+2020-06-24 12:22:55.623 9357-9357/? W/re-initialized>: type=1400 audit(0.0:394499): avc: denied { read } for pid=9357 name="u:object_r:mmi_prop:s0" dev="tmpfs" ino=12083 scontext=u:r:untrusted_app:s0:c108,c256,c512,c768 tcontext=u:object_r:mmi_prop:s0 tclass=file permissive=0
+2020-06-24 12:22:55.626 9357-9357/? D/ActivityThread: Attach thread to application
+2020-06-24 12:22:55.725 9357-9357/? I/mosdkindigital: QarthPatchMonintor::Init
+2020-06-24 12:22:55.725 9357-9357/? I/mosdkindigital: QarthPatchMonintor::StartWatch
+2020-06-24 12:22:55.725 9357-9357/? I/mosdkindigital: QarthPatchMonintor::WatchPackage: /data/hotpatch/fwkhotpatch/
+2020-06-24 12:22:55.725 9357-9357/? I/mosdkindigital: QarthPatchMonintor::CheckAndWatchPatch: /data/hotpatch/fwkhotpatch/com.huawei.demo.demosdkindigitall
+2020-06-24 12:22:55.725 9357-9357/? I/mosdkindigital: QarthPatchMonintor::CheckAndWatchPatch: /data/hotpatch/fwkhotpatch/all
+2020-06-24 12:22:55.725 9357-9357/? I/mosdkindigital: QarthPatchMonintor::Run
+2020-06-24 12:22:55.726 9357-9394/? I/mosdkindigital: QarthPatchMonintor::Reading
+2020-06-24 12:22:55.726 9357-9394/? I/mosdkindigital: QarthPatchMonintor::CheckNotifyEvent
+2020-06-24 12:22:55.726 9357-9394/? I/mosdkindigital: QarthPatchMonintor::CheckNotifyEvent before read
+2020-06-24 12:22:55.726 9357-9376/? I/HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.huawei.demo.demosdkindigitall#10108#256
+2020-06-24 12:22:55.727 9357-9376/? I/HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.huawei.demo.demosdkindigitall#10108#0
+2020-06-24 12:22:55.729 9357-9376/? I/AwareBitmapCacher: init processName:com.huawei.demo.demosdkindigitall pid=9357 uid=10108
+2020-06-24 12:22:55.730 9357-9357/? W/FirebaseApp: Default FirebaseApp failed to initialize because no default options were found. This usually means that com.google.gms:google-services was not applied to your gradle project.
+2020-06-24 12:22:55.730 9357-9357/? I/FirebaseInitProvider: FirebaseApp initialization unsuccessful
+2020-06-24 12:22:55.731 9357-9396/? E/AwareLog: AtomicFileUtils: readFileLines file not exist: android.util.AtomicFile@9f4afb4
+2020-06-24 12:22:55.732 9357-9396/? E/AwareLog: AtomicFileUtils: readFileLines file not exist: android.util.AtomicFile@2d26f52
+2020-06-24 12:22:55.754 9357-9357/? I/HMSSDK_HuaweiMobileServicesUtil: connect versionCode:50000304
+2020-06-24 12:22:55.762 9357-9357/? I/HMSSDK_HuaweiMobileServicesUtil: connect versionCode:50000304
+2020-06-24 12:22:55.763 9357-9357/? I/System.out: ---after init
+2020-06-24 12:22:55.767 9357-9401/? D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+2020-06-24 12:22:55.793 9357-9357/? V/ActivityThread: callActivityOnCreate
+2020-06-24 12:22:55.802 9357-9357/? V/HwWidgetFactory: : successes to get AllImpl object and return....
+2020-06-24 12:22:55.811 9357-9357/? I/OverScrollerOptimization: start init SmartSlideOverScroller and get the overscroller config
+2020-06-24 12:22:55.811 9357-9357/? I/OverScrollerOptimization: get the overscroller config
+2020-06-24 12:22:55.828 9357-9357/? W/mosdkindigital: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+2020-06-24 12:22:55.828 9357-9357/? W/mosdkindigital: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+2020-06-24 12:22:55.845 9357-9357/? D/ActivityThread: add activity client record, r= ActivityRecord{86ca82f token=android.os.BinderProxy@6fd6de4 {com.huawei.demo.demosdkindigitall/com.huawei.demo.demosdkindigitall.MainActivity}} token= android.os.BinderProxy@6fd6de4
+2020-06-24 12:22:55.860 9357-9408/? D/HiTouch_PressGestureDetector: onAttached, package=com.huawei.demo.demosdkindigitall, windowType=1, mHiTouchRestricted=false
+2020-06-24 12:22:55.869 9357-9403/? I/iGraphics: [0020080c] pn: com.huawei.demo.demosdkindigitall, p: 9357
+2020-06-24 12:22:55.869 9357-9403/? I/iGraphics: [0030080c] no spt app: com.huawei.demo.demosdkindigitall
+2020-06-24 12:22:55.879 9357-9403/? D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2020-06-24 12:22:55.885 9357-9403/? W/Gralloc3: mapper 3.x is not supported
+2020-06-24 12:22:55.912 9357-9357/? I/HwViewRootImpl: removeInvalidNode jank list is null
+2020-06-24 12:22:56.011 9357-9401/? D/[IND]api.BaseClient: Method: GET
+    URL: https://device-api.indigitall.com/v1/application/all?appKey=060ce62f-be2c-4fc0-8ad5-4c00c92a02a7&platform=harmony
+    Response Code: 200
+    Response Message: OK
+    Response Body: {
+        "statusCode": 200,
+        "message": "OK",
+        "data": {
+            "configuration": {
+                "locationEnabled": true,
+                "serviceSyncTime": 1,
+                "locationAccuracy": 50,
+                "locationDistance": 100,
+                "maintenanceWindow": {
+                    "end": "5:00",
+                    "start": "01:00"
+                },
+                "networkUpdateMinutes": 10,
+                "locationUpdateMinutes": 10,
+                "enabled": true,
+                "inAppEnabled": false,
+                "networkEventsEnabled": false,
+                "safariWebsitePushId": null,
+                "vapidPublic": "BHKsBz4oVafZb4vlmEvL6LtXLBf9XdtFk9nPWtz7IXmQ5yAhojFPHYVbONMQ8EMmTRHOE-Huqfuk-hlZyEDH-Qs",
+                "secureSendingEnabled": false,
+                "secureSendingAppPublicKey": null
+            },
+            "topics": [],
+            "externalApps": []
+        }
+    }
+2020-06-24 12:22:56.025 9357-9401/? I/HMSSDK_HuaweiMobileServicesUtil: connect versionCode:50000304
+2020-06-24 12:22:56.062 9357-9426/? D/[IND]api.BaseClient: Method: POST
+    URL: https://device-api.indigitall.com/v1/device?appKey=060ce62f-be2c-4fc0-8ad5-4c00c92a02a7
+    Request Body: {
+        "platform": "harmony",
+        "version": "4.6.0",
+        "productName": "harmony",
+        "productVersion": "4.6.0",
+        "osName": "Android",
+        "osVersion": "10 (SDK:29)",
+        "deviceBrand": "HUAWEI",
+        "deviceModel": "LIO-L29",
+        "deviceType": "mobile",
+        "appVersion": "1.0",
+        "locale": "es_ES",
+        "timeZone": "Europe\/Madrid",
+        "timeOffset": 120
+    }
+    Response Code: 400
+    Error: Bad Request
+2020-06-24 12:23:00.733 9357-9357/com.huawei.demo.demosdkindigitall D/AwareBitmapCacher: handleInit disable com.huawei.demo.demosdkindigitall

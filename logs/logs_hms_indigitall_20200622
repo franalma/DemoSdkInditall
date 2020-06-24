@@ -1,0 +1,40 @@
+2020-06-22 10:35:23.121 21592-21592/? V/ActivityThread: callActivityOnCreate
+2020-06-22 10:35:23.132 21592-21592/? V/HwWidgetFactory: : successes to get AllImpl object and return....
+2020-06-22 10:35:23.142 21592-21592/? I/OverScrollerOptimization: start init SmartSlideOverScroller and get the overscroller config
+2020-06-22 10:35:23.142 21592-21592/? I/OverScrollerOptimization: get the overscroller config
+2020-06-22 10:35:23.159 21592-21592/? W/mosdkindigital: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+2020-06-22 10:35:23.160 21592-21592/? W/mosdkindigital: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+2020-06-22 10:35:23.178 21592-21592/? D/ActivityThread: add activity client record, r= ActivityRecord{7a0cfc2 token=android.os.BinderProxy@3502638 {com.huawei.demo.demosdkindigitall/com.huawei.demo.demosdkindigitall.MainActivity}} token= android.os.BinderProxy@3502638
+2020-06-22 10:35:23.194 21592-21724/? D/HiTouch_PressGestureDetector: onAttached, package=com.huawei.demo.demosdkindigitall, windowType=1, mHiTouchRestricted=false
+2020-06-22 10:35:23.203 21592-21698/? I/iGraphics: [0020080c] pn: com.huawei.demo.demosdkindigitall, p: 21592
+2020-06-22 10:35:23.203 21592-21698/? I/iGraphics: [0030080c] no spt app: com.huawei.demo.demosdkindigitall
+2020-06-22 10:35:23.210 21592-21698/? D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2020-06-22 10:35:23.215 21592-21698/? W/Gralloc3: mapper 3.x is not supported
+2020-06-22 10:35:23.215 21592-21694/? D/[IND]api.BaseClient: Method: GET
+    URL: https://device-api.indigitall.com/v1/application/all?appKey=060ce62f-be2c-4fc0-8ad5-4c00c92a02a7&platform=harmony
+    Response Code: 403
+    Error: Forbidden
+2020-06-22 10:35:23.225 21592-21694/? I/HMSSDK_HuaweiMobileServicesUtil: connect versionCode:40100301
+2020-06-22 10:35:23.243 21592-21592/? I/HwViewRootImpl: removeInvalidNode jank list is null
+2020-06-22 10:35:23.281 21592-21744/? D/[IND]api.BaseClient: Method: POST
+    URL: https://device-api.indigitall.com/v1/device?appKey=060ce62f-be2c-4fc0-8ad5-4c00c92a02a7
+    Request Body: {
+        "platform": "harmony",
+        "version": "4.6.0",
+        "productName": "android",
+        "productVersion": "3.1.2",
+        "osName": "Android",
+        "osVersion": "10 (SDK:29)",
+        "deviceBrand": "HUAWEI",
+        "deviceModel": "LIO-L29",
+        "deviceType": "mobile",
+        "appVersion": "1.0",
+        "locale": "es_ES",
+        "timeZone": "Europe\/Madrid",
+        "timeOffset": 120
+    }
+    Response Code: 403
+    Error: Forbidden
+2020-06-22 10:35:24.979 21592-21612/com.huawei.demo.demosdkindigitall W/System: A resource failed to call end. 
+2020-06-22 10:35:24.979 21592-21612/com.huawei.demo.demosdkindigitall W/System: A resource failed to call end. 
+2020-06-22 10:35:28.063 21592-21592/com.huawei.demo.demosdkindigitall D/AwareBitmapCacher: handleInit disable com.huawei.demo.demosdkindigitall
